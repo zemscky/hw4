@@ -58,6 +58,22 @@ public class Main {
         System.out.println("За 3 дня машина произвела бутылок " + machinePerformance3 + " штук");
         int machinePerformance4 = machinePerformance2 * 30;
         System.out.println("За 1 месяц машина произвела бутылок " + machinePerformance4 + " штук");
+        // Задача 5
+        System.out.println("Задача 5 ");
+        byte cansOfPaint = 120;
+        System.out.println("Всего банок краски " + cansOfPaint + " штук");
+        byte whitePaint = 2;
+        System.out.println("На один класс уходит " + whitePaint + " банок белой краски");
+        byte brownPaint = 4;
+        System.out.println("На один класс уходит " + brownPaint + " банок коричневой краски");
+        int paintForOneClass = whitePaint + brownPaint;
+        System.out.println(paintForOneClass + " банок краски уходит на один класс");
+        int totalClasses = cansOfPaint / paintForOneClass;
+        System.out.println("Всего в школе " + totalClasses + " классов");
+        int whitePaintForClassroom = whitePaint * totalClasses;
+        int brownPaintForClassroom = brownPaint * totalClasses;
+        System.out.println("В школе, где " + totalClasses + " классов, нужно " + whitePaintForClassroom + " банок белой краски и " + brownPaintForClassroom + " банок коричневой краски");
+
 
 
 
