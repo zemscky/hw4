@@ -46,6 +46,22 @@ public class Main {
         System.out.println("Закуплено " + paper + " листов бумаги");
         int paperForOneStudent = paper / studentsTotal;
         System.out.println("На каждого ученика расчитано " + paperForOneStudent + " листов бумаги");
+        // Задача 4
+        System.out.println("Задача 4 ");
+        byte machinePerformance = 16 / 2;
+        System.out.println("За 1 минуту машина произвела бутылок " + machinePerformance + " штук");
+        short machinePerformance1 = 20 * 8;
+        System.out.println("За 20 минут машина произвела бутылок " + machinePerformance1 + " штук");
+        short machinePerformance2 = 1440 * 8;
+        System.out.println("За сутки машина произвела бутылок " + machinePerformance2 + " штук");
+        int machinePerformance3 = machinePerformance2 * 3;
+        System.out.println("За 3 дня машина произвела бутылок " + machinePerformance3 + " штук");
+        int machinePerformance4 = machinePerformance2 * 30;
+        System.out.println("За 1 месяц машина произвела бутылок " + machinePerformance4 + " штук");
+
+
+
+
 
 
 
