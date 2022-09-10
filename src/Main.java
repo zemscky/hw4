@@ -10,8 +10,8 @@ public class Main {
         System.out.println("Значение переменной cucumber с типом short равно " + cucumber);
         long pineapple = 100;
         System.out.println("Значение переменной pineapple с типом long равно " + pineapple);
-        float pepper = 1f;
-        System.out.println("Значение переменной apple с типом float равно " + apple);
+        float carrot = 1f;
+        System.out.println("Значение переменной carrot с типом float равно " + carrot);
         double tomato = 1.5;
         System.out.println("Значение переменной apple с типом double равно " + tomato);
         // Задача 2
