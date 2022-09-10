@@ -32,6 +32,21 @@ public class Main {
         System.out.println(f);
         byte g = 67;
         System.out.println(g);
+        // Задача 3
+        System.out.println("Задача 3 ");
+        byte teacher1 = 23;
+        System.out.println("У первого учителя " + teacher1 + " ученика");
+        byte teacher2 = 27;
+        System.out.println("У второго учителя " + teacher2 + " ученика");
+        byte teacher3 = 30;
+        System.out.println("У третьего учителя " + teacher3 + " ученика");
+        int studentsTotal = teacher1 + teacher2 + teacher3;
+        System.out.println("Всего учеников " + studentsTotal);
+        short paper = 480;
+        System.out.println("Закуплено " + paper + " листов бумаги");
+        int paperForOneStudent = paper / studentsTotal;
+        System.out.println("На каждого ученика расчитано " + paperForOneStudent + " листов бумаги");
+
 
 
 
