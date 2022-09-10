@@ -86,6 +86,21 @@ public class Main {
         int sportsBreakfastWeight = bananas1 + milk + iceCream + eggs;
         float sportsBreakfastWeight1 = sportsBreakfastWeight / 1000f;
         System.out.println("Все спортивного завтрака составляет " + sportsBreakfastWeight + " грамм или " + sportsBreakfastWeight1 + " килограмм");
+        // Задание 7
+        System.out.println("Задание 7 ");
+        short weight = 7 * 1000;
+        short diet1 = 250;
+        short diet2 = 500;
+        int weightLoss1 = weight / diet1;
+        int weightLoss2 = weight / diet2;
+        System.out.println("Спортсмену нужно сбросить " + weight + " грамм");
+        System.out.println("При соблюдении первой диеты, спортсмену понадобится " + weightLoss1 + " дней");
+        System.out.println("При соблюдении второй диеты, спортсмену понадобится " + weightLoss2 + " дней");
+        int weightLossAverage = (weightLoss1 + weightLoss2) / 2;
+        System.out.println("В среднем спортсмену понадобится " + weightLossAverage + " день");
+
+
+
 
 
 
