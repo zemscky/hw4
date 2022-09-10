@@ -73,6 +73,20 @@ public class Main {
         int whitePaintForClassroom = whitePaint * totalClasses;
         int brownPaintForClassroom = brownPaint * totalClasses;
         System.out.println("В школе, где " + totalClasses + " классов, нужно " + whitePaintForClassroom + " банок белой краски и " + brownPaintForClassroom + " банок коричневой краски");
+        // Задание 6
+        System.out.println("Задание 6 ");
+        short bananas1 = 5 * 80;
+        short milk = 105 * 2;
+        short iceCream = 100 * 2;
+        short eggs = 4 * 70;
+        System.out.println("Бананы -  " + bananas1 + " грамм");
+        System.out.println("Молоко -  " + milk + " грамм");
+        System.out.println("Мороженое пломбир -  " + iceCream + " грамм");
+        System.out.println("Сырые яйца -  " + eggs + " грамм");
+        int sportsBreakfastWeight = bananas1 + milk + iceCream + eggs;
+        float sportsBreakfastWeight1 = sportsBreakfastWeight / 1000f;
+        System.out.println("Все спортивного завтрака составляет " + sportsBreakfastWeight + " грамм или " + sportsBreakfastWeight1 + " килограмм");
+
 
 
 
